@@ -6,7 +6,7 @@ COPY ./Faculty-Rating-System-Api-/package*.json .
 
 RUN npm install
 
-COPY ./Faculty-Rating-System-Api- .
+COPY . .
 
 EXPOSE 3000
 
